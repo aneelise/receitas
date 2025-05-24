@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas Saudáveis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1 class="titulo">Receitas<span class="destaque"><br> Saudáveis</span></h1>
+  <div class="grade-receitas" id="grade-receitas"></div> <!-- grade é a parte onde vai os cards -->
+
+  <div class="modal" id="modal"> <!-- modal é a janelinha com o passo a passo -->
+    <div class="conteudo-modal">
+      <button class="botao-fechar" onclick="fecharModal()">X</button>
+      <img id="imagem-etapa" src="" alt="Etapa da receita">
+      <h2 id="titulo-etapa"></h2>
+      <p id="texto-etapa"></p>
+
+      <div class="controles">
+        <button onclick="etapaAnterior()">Anterior</button>
+        <button onclick="proximaEtapa()">Próximo</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+Rounded+1c&family=Montserrat:wght@400;600;700&display=swap');
+
+/* ===== VARIÁVEIS DE COR ===== */
+:root {
+  --marrom-claro: #a8857d;
+  --marrom-terra: #642a23;
+  --verde-escuro: #2c3426;
+  --verde-claro: #909f83;
+  --branco: #ffffff;
+  --cinza: #999;
+}
+
+body {
+  background: linear-gradient(135deg, #909f83, #a8857d);
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.titulo {
+  text-align: center;
+  color: var(--verde-escuro);
+  margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+.destaque {
+  text-align: center;
+  color: var(--verde-escuro);
+  margin-bottom: 2rem;
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+  
+}
+
+.grade-receitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cartao-receita {
+  width: 240px;
+  background-color: var(--verde-claro);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 15px rgba(24, 34, 17, 0.5);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartao-receita:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(24, 34, 17, 0.5);
+}
+
+.cartao-receita img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.cartao-receita p {
+  font-size: 1rem;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 500;
+  margin: 0 auto;           /*largura do nome la no card*/
+}
+
+/* ===== MODAL ===== */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  padding: 1rem;
+}
+
+.conteudo-modal {
+  background: linear-gradient(135deg, #909f83, #a8857d);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 400px;
+  width: 90%;
+  max-height: 90vh;               /* Limita a altura máxima */
+  overflow-y: auto;               /* Adiciona rolagem se necessário */
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes fadeIn {           /*adiciona o efeito que levanta a img quando passa o mouse*/
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.conteudo-modal img {
+  width: 100%;
+  max-width: 450px;            /* limita a largura da imagem */
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.conteudo-modal h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--marrom-terra);
+  margin: 0.5rem 0;
+}
+
+.conteudo-modal p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0.4rem 0;
+  color: var(--verde-escuro);
+}
+
+.controles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 12px;
+}
+
+.controles button,
+.botao-fechar {
+  background: var(--marrom-terra);
+  color: var(--branco);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.controles button:hover,
+.botao-fechar:hover {
+  background: #3d1612;
+}
+
+.botao-fechar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: crimson;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+}
