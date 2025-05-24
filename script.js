@@ -101,13 +101,13 @@ const receitas = [
       {
         tituli: "imagens/salada3.jpg",
         texto: "Servir",
-        imagem: "Sirva gelada com sementes por cima.`
+        imagem: "Sirva gelada com sementes por cima."
       }
     ]
   }
 ];
 
-
+``
 //criamos uma variavel para os itens da array (imagem,titulo,texto) e grade e modal do html
 const grade = document.getElementById("grade-receitas");
 const modal = document.getElementById("modal");
