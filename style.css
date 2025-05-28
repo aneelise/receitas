@@ -15,31 +15,42 @@ body {
   background-size: cover;
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  padding: 2rem;
+  padding-top: 80px;
 }
 
 .titulo {
-  text-align: center;
-  color: var(--verde-escuro);
-  margin-bottom: 2rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--verde-escuro);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  letter-spacing: 3px;
+  position: relative;
+  margin: 10px;
 }
 
+
 .destaque {
-  text-align: center;
-  color: var(--verde-escuro);
-  margin-bottom: 2rem;
-  font-family: "Lobster", sans-serif;
-  font-size: 2rem;
-  
+  font-family: "Lobster", cursive;
+  font-size: 2.8rem;
+  color: var(--marrom-terra);
+  text-align: left;
+  margin: 1rem 0 2rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-left: 6px solid var(--marrom-terra);
+  padding-left: 1rem;
 }
+
 
 .grade-receitas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  align-items: flex-start; /* <- Isso evita que todos os cards fiquem com a mesma altura */
+
 }
 
 .cartao-receita {
@@ -70,20 +81,28 @@ body {
   color: #f4f4f4;
   text-align: center;
   padding: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0 auto;           /*largura do nome la no card*/
 }
 
 /* ===== MODAL ===== */
 .modal {
-  position: fixed;
-  inset: 0;
+ position: fixed; /*o elemento fica "grudado" em uma posição fixa na janela do navegador. Mesmo se você rolar a página pra baixo ou pra cima, o elemento não se move. */
+ inset: 0; /* É uma forma abreviada para definir as quatro propriedades:top: 0; right: 0; bottom: 0; left: 0; com position: fixed + inset: 0, o modal cobre toda a tela, exatamente como você quer para um fundo escuro que bloqueia o resto da página. */
   background: rgba(0, 0, 0, 0.7);
-  display: none;
+  display: flex; 
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 999; /* muito acima para sobrepor tudo */
   padding: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal.ativo { /* um fade suave no modal na hora que clicar */
+  opacity: 1;
+  pointer-events: all;
 }
 
 .conteudo-modal {
@@ -113,9 +132,10 @@ body {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 1rem;
+  
 }
 
-.conteudo-modal h2 {
+.conteudo-modal h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
@@ -162,3 +182,88 @@ body {
   padding: 0.4rem 0.8rem;
   font-size: 1rem;
 }
+
+/* ===== SUBTÍTULOS DAS CATEGORIAS - lanches salgados e doces ===== */
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--marrom-terra);
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+  position: relative;
+  padding: 1.2rem;
+
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--verde-escuro);
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+  
+}
+
+
+/*=== DESCRICAO DO TITULO ==== */
+
+.descricao {
+  font-size: 1.1rem;
+  color: var(--verde-escuro);
+  padding: 1rem 2rem; /* topo/baixo 1rem, laterais 2rem */``
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+/*==== NAVBAR === */
+.navbar {
+  position: fixed;
+  top: 0;               /* Cola o elemento no topo da tela. */
+  left: 0;             /* Cola o elemento no canto esquerdo da tela. */    
+  width: 100%;     /* Garante que a navbar ocupa toda a largura */
+  z-index: 1000;       /* Garante que fique sobre os outros elementos */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(68, 41, 24, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  margin-bottom: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.menu a {
+  color: var(--verde-escuro);
+  text-decoration: none;
+  margin: 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+
+}
+
+.menu a:hover {
+  color: var(--marrom-terra);
+  text-shadow: 0 0 4px rgba(100, 42, 35, 0.2);
+}
+
+/*=== RODAPÉ === */
+.rodape {
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+  text-align: center;
+  padding: 0.8rem 1rem;
+  font-size: 0.85rem;
+  margin-top: 10rem;
+  border-top: 2px solid var(--marrom-terra);
+}
+

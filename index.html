@@ -8,14 +8,42 @@
 </head>
 
 <body>
-  <h1 class="titulo">Receitas<span class="destaque"><br> Saudáveis</span></h1>
+  <header class="navbar">
+    <nav class="menu">
+      <a href="#sobre">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#lanches-salgados">Salgados</a>
+      <a href="#lanches-doces">Doces</a>
+    </nav>
+  </header>
+  
+  
+  
+  <h1 class="titulo">Receitas<span class="destaque" id="sobre"><br> Saudáveis</span></h1>
+  <h2> Nossa Missāo </h2>
+  <p class="descricao">
+    Aqui você vai encontrar opções deliciosas e saudáveis que mostram que <strong>dieta não precisa ser sinônimo de sofrimento</strong>.<br>
+    Dá pra inovar e saborear receitas incríveis usando ingredientes simples do seu plano alimentar. <strong>Comer bem pode (e deve!) ser gostoso!<br></strong>
+    Nossa missão é justamente essa: mostrar que, com criatividade, dá pra transformar o básico em pratos variados, saborosos e surpreendentes. <br>
+    E quando chega o final de semana e bate aquela vontade de algo diferente, você consegue preparar uma receitinha saudável e matar a vontade sem sair do foco.
+    Assim, fica muito mais fácil <strong>manter a adesão ao plano alimentar</strong> e transformar a alimentação saudável em um estilo de vida leve, prazeroso e sustentável.<br>
+    Aqui você vai encontrar receitas salgadas que podem ser usadas tanto no almoço ou jantar, quando quiser variar o cardápio, quanto em lanches rápidos. E mais: também temos opções de receitas doces e muito mais!— e sim, são realmente deliciosas (cuidado pra não se apaixonar e viciar!). <br>
+    São receitas que eu mesma faço no meu dia a dia, testadas e aprovadas, com muito carinho.
+    Tem de tudo um pouco! Aproveite, experimente e se encante também com esse universo da nutrição. É incrível ver o que dá pra criar com poucos ingredientes e muita criatividade.
+  </p>
   <div class="grade-receitas" id="grade-receitas"></div> <!-- grade é a parte onde vai os cards -->
+
+  <h2>Lanches Salgados</h2>
+<div class="grade-receitas" id="lanches-salgados"></div>
+
+<h2>Lanches Doces</h2>
+<div class="grade-receitas" id="lanches-doces"></div>
 
   <div class="modal" id="modal"> <!-- modal é a janelinha com o passo a passo -->
     <div class="conteudo-modal">
       <button class="botao-fechar" onclick="fecharModal()">X</button>
       <img id="imagem-etapa" src="" alt="Etapa da receita">
-      <h2 id="titulo-etapa"></h2>
+      <h3 id="titulo-etapa"></h3>
       <p id="texto-etapa"></p>
 
       <div class="controles">
@@ -24,6 +52,12 @@
       </div>
     </div>
   </div>
+
+  
+
+  <footer class="rodape">
+    <p>&copy; 2025 Desenvolvido por Ane Elise | Todos os direitos reservados.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
