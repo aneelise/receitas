@@ -93,7 +93,7 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
-  z-index: 999; /* muito acima para sobrepor tudo */
+  z-index: 1000; /* muito acima para sobrepor tudo */
   padding: 1rem;
   opacity: 0;
   pointer-events: none;
@@ -138,16 +138,21 @@ body {
 .conteudo-modal h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--marrom-terra);
   margin: 0.5rem 0;
+  margin-bottom: 1rem;
+
 }
 
 .conteudo-modal p {
   font-size: 1rem;
   line-height: 1.5;
-  margin: 0.4rem 0;
+  margin: 0.2rem 0;
   color: var(--verde-escuro);
+  padding: 0;
+  line-height: 1.4;
+
 }
 
 .controles {
@@ -155,7 +160,9 @@ body {
   justify-content: space-between;
   margin-top: 1rem;
   gap: 12px;
+
 }
+
 
 .controles button,
 .botao-fechar {
@@ -167,6 +174,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease;
+
 }
 
 .controles button:hover,
@@ -220,6 +228,21 @@ h2::after {
   text-align: justify;
 }
 
+.aviso-receitas {
+  background-color: #c7bd9f8f;
+  border: 2px solid #c5bda3;
+  color: var(--verde-escuro);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: justify;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.aviso-receitas strong {
+  font-weight: bold;
+  color: #8a6d3b;
+}
+
 
 /*==== NAVBAR === */
 .navbar {
@@ -267,3 +290,153 @@ h2::after {
   border-top: 2px solid var(--marrom-terra);
 }
 
+.ingredientes {
+  text-align: left;
+  margin-bottom: -1rem;
+  color: var(--verde-escuro);
+}
+
+.ingredientes ul {
+  padding-left: 1.5rem;
+}
+
+/* === RESPONSIVIDADE GERAL === */
+@media (max-width: 400px) {
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .destaque {
+    font-size: 1.8rem;
+    padding-left: 0.6rem;
+  }
+
+  .grade-receitas {
+    gap: 16px;
+  }
+
+  .cartao-receita {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .conteudo-modal {
+    padding: 1rem 0.8rem;
+    max-width: 95%;
+  }
+
+  .conteudo-modal img {
+    max-width: 100%;
+  }
+
+  .descricao,
+  .aviso-receitas {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+
+  .menu a {
+    margin: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .controles {
+    align-items: stretch;
+  }
+
+  .controles button {
+    width: 100%;
+  }
+}
+
+/* === RESPONSIVIDADE GERAL === */
+@media (max-width: 768px) {
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .destaque {
+    font-size: 1.8rem;
+    padding-left: 0.6rem;
+  }
+
+  .grade-receitas {
+    gap: 16px;
+  }
+
+  .cartao-receita {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .conteudo-modal {
+    padding: 1rem 0.8rem;
+    max-width: 95%;
+  }
+
+  .conteudo-modal img {
+    max-width: 100%;
+  }
+
+  .descricao,
+  .aviso-receitas {
+    font-size: 0.95rem;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+
+  .menu a {
+    margin: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .controles {
+    align-items: stretch;
+  }
+
+  .controles button {
+    width: 100%;
+  }
+}
+
+/* Para telas MUITO pequenas tipo celular antigo */
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 1.6rem;
+  }
+
+  .destaque {
+    font-size: 1.5rem;
+  }
+
+  .descricao,
+  .aviso-receitas {
+    font-size: 0.85rem;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .menu a {
+    margin: 0.5rem;
+  }
+
+  .botao-fechar {
+    top: 8px;
+    right: 8px;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
