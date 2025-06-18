@@ -28,7 +28,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Pizza de frango",
-          ingredientes:[ "Pāo Sírio (ou rap10)", "Frango desfiado", "Tomate cereja", "Extrato de tomate", "Oregáno", "Mussarela" ],
+          ingredientes:[ "Pāo Sírio (ou rap10)", "100g Frango desfiado", "Tomate cereja", "Extrato de tomate", "Oregáno", "Mussarela" ],
           imagem: "imagens/pizzafake.jpeg"
         },
         {
@@ -49,13 +49,48 @@ const categorias = {
       etapas: [
         {
           titulo: "Tapioca Invertida",
-          ingredientes: ["Tapioca", "Ovos","Mussarela"],
+          ingredientes: ["20g Tapioca", "Ovos","20g Mussarela"],
           imagem: "imagens/tapiocainvertida.jpeg"
         },
         {
           titulo: "Preparo",
-          texto: "Em uma frigideira, coloque a mussarela, em seguida adicione a tapioca por cima e, por fim, os ovos. Tampe e deixe cozinhar até firmar.",
-          imagem: "imagens/tapiocainvertida.jpeg"
+          texto: "",
+          imagem: "imagens/tapiocainvertida1.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida2.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida3.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida4.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida5.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida6.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida7.png"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/tapiocainvertida8.png"
         },
         {
           titulo: "Finalização",
@@ -65,8 +100,8 @@ const categorias = {
       ]
     },
     {
-      nome: "Escondidinho",
-      capa: "imagens/escondidinho.jpeg",
+      nome: "Hambúrguer",
+      capa: "imagens/lanche.jpeg",
       etapas: [
         {
           titulo: "Escondidinho de batata inglesa",
@@ -91,7 +126,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Pastel de rap10",
-          ingredientes: ["Rap10", "Frango ou Carne", "Creme de ricota light ou requeijāo light",],
+          ingredientes: ["Rap10", "100g Frango ou Carne", "30g Creme de ricota light ou requeijāo light",],
           imagem: "imagens/pasteljpeg.jpeg"
         },
         {
@@ -112,7 +147,7 @@ const categorias = {
         etapas: [
           {
             titulo: "Patê de ovos",
-            ingredientes: ["Ovos Cozidos","Requeijāo light (ou creme de ricota light)", "Sal e temperos de sua preferência",],
+            ingredientes: ["2 Ovos Cozidos","30g Requeijāo light (ou creme de ricota light)", "Sal e temperos de sua preferência",],
             imagem: "imagens/tapiocainvertida.jpeg"
           },
           {
@@ -133,7 +168,7 @@ const categorias = {
         etapas: [
           {
             titulo: "Croquete de frango",
-            ingredientes: ["Frango desfiado", "Batata cozida", "Azeite",],
+            ingredientes: ["100g Frango desfiado", "Batata cozida", "Azeite",],
             imagem: "imagens/tapiocainvertida.jpeg"
           },
           {
@@ -154,40 +189,76 @@ const categorias = {
         etapas: [
           {
             titulo: "Bowl de Salada",
-            ingredientes: ["Alface", "Tomate", "Brócolis", "Pepino", "Manga", "Carne/Frango", "Batata inglesa", "Molho: De sua preferência"],
-            imagem: "imagens/tapiocainvertida.jpeg"
+            ingredientes: ["Acrescente os legumes e vegetais", "Opções:", "Alface", "Tomate", "Brócolis", "Pepino", "Manga", "Carne/Frango", "Batata inglesa ou Macarrāo cozido", "Molho: De sua preferência"],
+            imagem: "imagens/saladona.jpeg"
           },
           {
             titulo: "Preparo",
-            texto: "Em um recipiente grande, monte sua salada com os vegetais e legumes de preferência — como alface, tomate, pepino, brócolis, couve-flor e manga ou abacaxi (se gostar). Prepare batata inglesa na airfryer (já tem post aqui dela) e adicione à salada junto com a sua proteína. Adicione o molho de sua preferência (ao lado deste post, você encontra outro com várias ideias de molhos para variar sua salada) Misture bem e sirva por cima da salada.",
-            imagem: "imagens/tapiocainvertida.jpeg"
+            texto: "",
+            imagem: "imagens/salada2.jpeg"
           },
           {
-            titulo: "Finalização",
-            texto: "Finalize como preferir.",
-            imagem: "imagens/tapiocainvertida.jpeg"
-          }
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/salada2.jpeg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/salada2.jpeg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/salada2.jpeg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/salada2.jpeg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/salada2.jpeg"
+          },
         ]
       },
       {
-        nome: "Molhos para salada",
-        capa: "imagens/saladona.jpeg",
+        nome: "Molhos para salada/lanches",
+        capa: "imagens/molhosalada.jpg",
         etapas: [
           {
-            titulo: "Molhos para salada",
-            ingredientes: ["Molho 1:"],
-            imagem: "imagens/tapiocainvertida.jpeg"
+            titulo: "Molho Rosê:",
+            ingredientes: ["Molho 1:", "30g de Creme de ricota light ou Requeijāo light", "1 colher de Ketchup", "1 colher de Mostarda", "Temperos a gosto",],
+            texto: "Observação: todos esses molhos são versáteis e podem ser usados de várias formas — como em bowls de salada, lanches caseiros ou wraps. São saborosos e fazem toda a diferença na refeição! Sinta-se à vontade para adaptar os ingredientes conforme seu gosto.",
+            imagem: "imagens/molhorose.webp"
           },
           {
             titulo: "Preparo",
-            texto: "Para o molho, misture em outro recipiente 30g de creme de ricota light ou requeijão, um pouco de ketchup, mostarda, sal e limão. Misture bem e sirva por cima da salada.",
-            imagem: "imagens/tapiocainvertida.jpeg"
+            texto: "Para o molho, misture em um recipiente 30g de creme de ricota light ou requeijão (da pra substituir com iogurte desnatado), um pouco de ketchup, mostarda, sal. Misture bem e sirva por cima da salada. Dica: se gostar de agridoce adicione 3 gotinhas de adoçante.",
+            imagem: "imagens/molhorose.webp"
           },
           {
-            titulo: "Finalização",
-            texto: "Finalize como preferir.",
-            imagem: "imagens/tapiocainvertida.jpeg"
-          }
+            titulo: "Molho de mel e limāo",
+            ingredientes: ["Molho 2:", "50g de iogurte desnatado ou 30g creme de ricota/requeijāo", "2 colheres de Mel", "1/2 colher de sumo de limāo", "Sal, oregáno e temperos a gosto",],
+            imagem: "imagens/molholimao.webp"
+          },
+          {
+            titulo: "Preparo",
+            texto: "Para o molho, misture em um recipiente todos os ingredientes e sirva por cima da salada.",
+            imagem: "imagens/molholimao.webp"
+          },
+          {
+            titulo: "Molho de Alho",
+            ingredientes: ["Molho 3:", "1 colher de alho picado e refogado", "30g Creme de ricota light ou Requeijāo light", "Sal, pimenta do reino, páprica defumada, temperos a gosto",],
+            imagem: "imagens/molhoalho.jpg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "Para o molho, misture em um recipiente todos os ingredientes e sirva por cima da salada.",
+            imagem: "imagens/molhoalho2.png"
+          },
         ]
       },
       {
@@ -196,7 +267,7 @@ const categorias = {
         etapas: [
           {
             titulo: "Toast de frango",
-            ingredientes: ["Pāo", "Frango desfiado", "Creme de ricota light (ou requeijāo)", "Mussarela",],
+            ingredientes: ["Pāes", "100g Frango desfiado", "30g Creme de ricota light (ou requeijāo)", "1 fatia de mussarela",],
             imagem: "imagens/tapiocainvertida.jpeg"
           },
           {
@@ -222,7 +293,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Smoothie de Morango",
-          ingredientes: ["Morangos Congelados", "60ml Leite desnatado", "Whey",],
+          ingredientes: ["Morangos Congelados", "60ml Leite desnatado", "30g de Whey",],
           imagem: "imagens/smoothie.jpeg"
         },
         {
@@ -243,19 +314,39 @@ const categorias = {
       etapas: [
         {
           titulo: "Mingau de aveia",
-          ingredientes: [ "Farelo de aveia", "150/200ml de leite", "Whey", "Cacau 100%", "Banana", "Opcional: Adoçante e 20g de chocolate"],
+          ingredientes: [ "Farelo de aveia", "200ml de leite", "Whey", "Cacau 100%", "Porçāo de fruta","Adoçante", "Opcional: 20g de chocolate"],
           imagem: "imagens/mingau1.jpeg"
         },
         {
           titulo: "Preparo",
-          texto: "Adicione a aveia, cacau, leite, misture e leve ao fogo até pegar consistência de mingau, após, retire e adicione 30g de whey com o fogo já desligado.",
-          imagem: "imagens/mingau2.jpeg"
+          texto: "",
+          imagem: "imagens/mingau1.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/mingau2.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/mingau3.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/mingau4.jpg"
         },
         {
           titulo: "Finalizaçāo",
-          texto: "Finalize com toppings de sua preferência. Sugestāo: banana e chocolate.",
-          imagem: "imagens/mingau3.jpeg"
-        }
+          texto: "",
+          imagem: "imagens/mingau5.jpg"
+        },
+        {
+          titulo: "Finalizaçāo",
+          texto: "",
+          imagem: "imagens/mingau6.jpg"
+        },
       ]
     },
     {
@@ -264,7 +355,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Bolo de banana com nozes",
-          ingredientes: ["Farelo de aveia", "Banana", "Ovo", "Whey", "Mix de Nuts (nozes)", "Fermento", "Opcional: Canela e Mel"],
+          ingredientes: ["20g Farelo de aveia", "Banana", "1 Ovo", "30g Whey", "20g de Mix de Nuts (nozes)", "Fermento", "Opcional: Canela e Mel"],
           imagem: "imagens/bolopaodemel.jpeg"
         },
         {
@@ -280,22 +371,37 @@ const categorias = {
       ]
     },
     {
-      nome: "Bombom Saudável",
+      nome: "Bombom de Whey",
       capa: "imagens/bombom.jpeg",
       etapas: [
         {
           titulo: "Bombom de uva e morango",
-          ingredientes: ["Chocolate", "30g de whey", "Uva e/ou morango",],
+          ingredientes: ["20g de Chocolate", "30g de whey", "1/2 porçāo de fruta",],
           imagem: "imagens/bombom.jpeg"
         },
         {
           titulo: "Preparo",
-          texto: "Em uma forminha de silicone, derreta um quadradinho de chocolate no micro por cerca de 30seg e espalhe o chocolate por toda a forminha. Leve ao congelador por 10 minutos. Enquanto isso, prepare o creminho de whey misturando whey com água aos poucos até atingir uma textura cremosa. Retire a forminha do congelador, adicione o creme de whey com uvas picadas e leve novamente ao congelador por mais 15 minutos.",
+          texto: "",
           imagem: "imagens/bombom.jpeg"
         },
         {
-          titulo: "Finalização",
-          texto: "Servir",
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
           imagem: "imagens/bombom.jpeg"
         }
       ]
@@ -306,7 +412,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Panqueca com morangos",
-          ingredientes: ["Farelo de aveia", "Ovo", "Cacau 100%", "Whey", "Morangos", "Adoçante"],
+          ingredientes: ["20g Farelo de aveia", "1 Ovo", "5g Cacau 100%", "30g Whey", "Morangos", "Adoçante"],
           imagem: "imagens/panqueca.jpeg"
         },
         {
@@ -348,7 +454,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Bowl de iogurte",
-          ingredientes: [ "Iogurte natural", "Whey", "Frutas", "Granola",],
+          ingredientes: [ "170ml Iogurte natural", "30g Whey", "Frutas", "20g de Granola",],
           imagem: "imagens/mingau1.jpeg"
         },
         {
@@ -369,7 +475,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Crepioca AgriDoce",
-          ingredientes: [ "Tapioca", "Ovos", "Doce de leite", "Banana", "Mussarela",],
+          ingredientes: [ "20g Tapioca", "Ovos", "15g de Doce de leite", "Banana", "20g Mussarela",],
           imagem: "imagens/mingau1.jpeg"
         },
         {
@@ -390,7 +496,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Mousse de maracujá",
-          ingredientes: ["Iogurte natural", "Maracujá", "Whey neutro", "Adoçante",],
+          ingredientes: ["170ml de Iogurte natural", "1 Maracujá", "30g Whey", "Adoçante",],
           imagem: "imagens/mingau1.jpeg"
         },
         {
@@ -514,3 +620,4 @@ document.addEventListener("keydown", function(event) {
     }
   }
 });
+
