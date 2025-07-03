@@ -147,6 +147,7 @@ body {
   object-fit: contain; /* Evita cortes */
   border-radius: 12px;
   margin-bottom: 1rem;
+  
 }
 
 .conteudo-modal h3 {
