@@ -657,6 +657,10 @@ function typeCards() {
 
 // Função que abre o modal da receita, iniciando pela primeira etapa
 function abrirReceita(receita) {
+  receita.etapas.forEach(etapa => {
+    const img = new Image();
+    img.src = etapa.imagem;
+  });
   receitaAtual = receita;                    // Define a receita atual para exibição
   etapaAtual = 0;                             // Começa sempre na primeira etapa (ingredientes)
   exibirEtapa();                              // Exibe os dados da etapa atual no modal
