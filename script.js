@@ -4,10 +4,11 @@ const categorias = {
     {
       nome: "Toast Pāozinho",
       capa: "imagens/toastqueijo.jpeg",
+      calorias: 250,
       etapas: [
         {
           titulo: "Toast Pāozinho",
-          ingredientes: [ "Pāo", "Mussarela", "Creme de ricota light (ou requeijāo).", "Opcional: tomate cereja, orégano"],
+          ingredientes: [ "2 Pāes", "20g mussarela", "30g creme de ricota light (ou requeijāo).", "Opcional: tomate cereja, orégano"],
           imagem: "imagens/pao2.jpeg"
         },
         {
@@ -17,7 +18,7 @@ const categorias = {
         },
         {
           titulo: "Finalização",
-          texto: "Coma com alguma proteina e frutinhas. Se gosta de agridoce adicione mel no pāo que tem apenas queijo :)",
+          texto: "Coma com alguma proteina e frutinhas. Se gosta de agridoce adicione mel no pāo que tem apenas queijo, com mel a receita fica em torno de 265kcal.",
           imagem: "imagens/pao3.jpeg"
         }
       ]
@@ -25,31 +26,48 @@ const categorias = {
     {
       nome: "Pizza de frango",
       capa: "imagens/pizzafake.jpeg",
+      calorias: 360,
       etapas: [
         {
           titulo: "Pizza de frango",
-          ingredientes:[ "Pāo Sírio (ou rap10)", "100g Frango desfiado", "Tomate cereja", "Extrato de tomate", "Oregáno", "Mussarela" ],
-          imagem: "imagens/pizzafake.jpeg"
+          ingredientes:[ "1 Pāo Sírio", "100g Frango desfiado", "Extrato de tomate/passata", "Oregáno", "10g Mussarela", "Brócolis", "Tomate" ],
+          imagem: "imagens/pizza1.jpg"
         },
         {
           titulo: "Preparo",
-          texto: "No pão sírio, espalhe o extrato de tomate (ou ketchup), adicione o frango desfiado e, por cima, distribua os tomates, queijo e orégano. Depois de montar, leve à airfryer por 10 minutos.",
-          imagem: "imagens/pizzafake.jpeg"
+          texto: "",
+          imagem: "imagens/pizza2.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pizza3.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pizza4.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pizza5.jpg"
         },
         {
           titulo: "Finalização",
-          texto: "Finalize como preferir, use a criatividade!",
-          imagem: "imagens/pizzafake.jpeg"
+          texto: "Finalize como preferir de acordo com as quantidades da sua dieta",
+          imagem: "imagens/pizza6.jpg"
         }
       ]
     },
     {
       nome: "Tapioca Invertida",
       capa: "imagens/tapiocainvertida.jpeg",
+      calorias: 270,
       etapas: [
         {
           titulo: "Tapioca Invertida",
-          ingredientes: ["20g Tapioca", "Ovos","20g Mussarela"],
+          ingredientes: ["20g tapioca", "2 ovos","20g mussarela"],
           imagem: "imagens/tapiocainvertida.jpeg"
         },
         {
@@ -88,13 +106,8 @@ const categorias = {
           imagem: "imagens/tapiocainvertida7.png"
         },
         {
-          titulo: "Preparo",
-          texto: "",
-          imagem: "imagens/tapiocainvertida8.png"
-        },
-        {
           titulo: "Finalização",
-          texto: "Finalize como preferir. Sugestāo: rechear com creme de ricota light ou requeijāo light.",
+          texto: "Finalize como preferir. Sugestāo: rechear com requeijāo light. Com isso, a receita ficará em torno de 315 kcal",
           imagem: "imagens/tapiocainvertida.jpeg"
         }
       ]
@@ -102,20 +115,36 @@ const categorias = {
     {
       nome: "Hambúrguer",
       capa: "imagens/lanche.jpeg",
+      calorias: 375,
       etapas: [
         {
-          titulo: "Escondidinho de batata inglesa",
-          ingredientes: [ "Batata inglesa","Carne/Frango", "Leite desnatado ou agua", "Mussarela", ],
+          titulo: "Hambúrguer",
+          ingredientes: [ "50g Pāo de hambúrguer", "120g de patinho moído cru", "20g Mussarela", "Opcionais: cebola, alface, tomate, picles", ],
           imagem: "imagens/escondidinho.jpeg"
         },
         {
           titulo: "Preparo",
-          texto: "Cozinhe a batata até que fique bem macia. Em seguida, acrescente 50ml de leite desnatado, sal e os temperos de sua preferência. Faça a montagem em um bowl, uma camada de batata, uma de proteina, sucessivamente até finalizar.",
+          texto: "",
+          imagem: "imagens/escondidinho.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/escondidinho.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/escondidinho.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
           imagem: "imagens/escondidinho.jpeg"
         },
         {
           titulo: "Finalização",
-          texto: "Finalize com mussarela e orégano. E leve a airfryer por 10min para derreter o queijo.",
+          texto: "",
           imagem: "imagens/escondidinho.jpeg"
         }
       ]
@@ -123,10 +152,11 @@ const categorias = {
     {
       nome: "Pastel",
       capa: "imagens/pasteljpeg.jpeg",
+      calorias: 355,
       etapas: [
         {
           titulo: "Pastel de rap10",
-          ingredientes: ["Rap10", "100g Frango ou Carne", "30g Creme de ricota light ou requeijāo light",],
+          ingredientes: ["1 Rap10", "100g Frango ou Carne", "30g Creme de ricota light ou requeijāo light",],
           imagem: "imagens/pasteljpeg.jpeg"
         },
         {
@@ -144,6 +174,7 @@ const categorias = {
       {
         nome: "Patê de ovos",
         capa: "imagens/pateovos.jpeg",
+        calorias: 200,
         etapas: [
           {
             titulo: "Patê de ovos",
@@ -163,22 +194,23 @@ const categorias = {
         ]
       },
       {
-        nome: "Croquete de frango",
+        nome: "Cheddar McMelti",
         capa: "imagens/croquete.jpeg",
+        calorias: 395,
         etapas: [
           {
-            titulo: "Croquete de frango",
-            ingredientes: ["100g Frango desfiado", "Batata cozida", "Azeite",],
+            titulo: "Cheddar McMelti",
+            ingredientes: ["1 Rap 10", "120g patinho moído cru", "20g cheddar", "Opcionais: cebola, alface, tomate", ],
             imagem: "imagens/tapiocainvertida.jpeg"
           },
           {
             titulo: "Preparo",
-            texto: "Cozinhe a batata até que fique bem macia. Em seguida, misture com o frango desfiado usando as mãos até formar uma massa homogênea. Modele em formato de bolinhas, pincele azeite por cima e leve à airfryer por cerca de 30 minutos ou até ficarem douradas.",
+            texto: "",
             imagem: "imagens/tapiocainvertida.jpeg"
           },
           {
             titulo: "Finalização",
-            texto: "Finalize como preferir. Sugestāo: Salada.",
+            texto: "Finalize como preferir.",
             imagem: "imagens/tapiocainvertida.jpeg"
           }
         ]
@@ -227,6 +259,7 @@ const categorias = {
       {
         nome: "Molhos para salada/lanches",
         capa: "imagens/molhosalada.jpg",
+        calorias: 70,
         etapas: [
           {
             titulo: "Molho Rosê:",
@@ -241,7 +274,7 @@ const categorias = {
           },
           {
             titulo: "Molho de mel e limāo",
-            ingredientes: ["Molho 2:", "50g de iogurte desnatado ou 30g creme de ricota/requeijāo", "2 colheres de Mel", "1/2 colher de sumo de limāo", "Sal, oregáno e temperos a gosto",],
+            ingredientes: ["Molho 2:", "50g de iogurte desnatado ou 30g creme de ricota/requeijāo", "1 colher de Mel (ou adoçante para diminuir as kcal)", "1/2 colher de sumo de limāo", "Sal, oregáno e temperos a gosto",],
             imagem: "imagens/molholimao.webp"
           },
           {
@@ -264,10 +297,11 @@ const categorias = {
       {
         nome: "Toast de frango",
         capa: "imagens/toastfrango.jpeg",
+        calorias: 430,
         etapas: [
           {
             titulo: "Toast de frango",
-            ingredientes: ["Pāes", "100g Frango desfiado", "30g Creme de ricota light (ou requeijāo)", "1 fatia de mussarela",],
+            ingredientes: ["2 Pāes", "100g Frango desfiado", "30g Creme de ricota light (ou requeijāo)", "1 fatia de mussarela",],
             imagem: "imagens/tapiocainvertida.jpeg"
           },
           {
@@ -282,6 +316,28 @@ const categorias = {
           }
         ]
       },
+      {
+        nome: "Caldo de abóbora",
+        capa: "imagens/toastfrango.jpeg",
+        calorias: 340,
+        etapas: [
+          {
+            titulo: "Caldo de abóbora",
+            ingredientes: ["150g de abóbora cabotia cozida", "100g Frango desfiado", "Agua aos poucos", "100g macarrāo cozido",],
+            imagem: "imagens/tapiocainvertida.jpeg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/tapiocainvertida.jpeg"
+          },
+          {
+            titulo: "Finalização",
+            texto: "Essa receita também pode ser consumida sem o macarrão, resultando em um caldo delicioso, nutritivo e rico em legumes e proteínas. Aprox. 225kcal sem o macarrāo e 340kcal com macarrāo",
+            imagem: "imagens/tapiocainvertida.jpeg"
+          }
+        ]
+      },
     ],
   
 
@@ -290,10 +346,11 @@ const categorias = {
     {
       nome: "Smoothie",
       capa: "imagens/smoothie.jpeg",
+      calorias: 200,
       etapas: [
         {
           titulo: "Smoothie de Morango",
-          ingredientes: ["Morangos Congelados", "60ml Leite desnatado", "30g de Whey",],
+          ingredientes: ["200g Morangos Congelados", "60ml Leite desnatado", "30g de Whey",],
           imagem: "imagens/smoothie.jpeg"
         },
         {
@@ -311,10 +368,11 @@ const categorias = {
     {
       nome: "Mingau de aveia",
       capa: "imagens/mingau.jpeg",
+      calorias: 460,
       etapas: [
         {
           titulo: "Mingau de aveia",
-          ingredientes: [ "Farelo de aveia", "200ml de leite", "Whey", "Cacau 100%", "Porçāo de fruta","Adoçante", "Opcional: 20g de chocolate"],
+          ingredientes: [ "20g Farelo de aveia", "200ml de leite desnatado", "30g Whey", "5g Cacau 100%", "Porçāo de fruta (100g banana)","Adoçante", "Opcional: 20g de chocolate"],
           imagem: "imagens/mingau1.jpeg"
         },
         {
@@ -339,7 +397,7 @@ const categorias = {
         },
         {
           titulo: "Finalizaçāo",
-          texto: "",
+          texto: "Calorias aprox; 460kcal com chocolate/porçāo de gordura. Sem 350kcal.",
           imagem: "imagens/mingau5.jpg"
         },
         {
@@ -350,12 +408,13 @@ const categorias = {
       ]
     },
     {
-      nome: "Bolo de banana com nozes",
+      nome: "Bolo de Chocolate",
       capa: "imagens/bolobanana.jpeg",
+      calorias: 400,
       etapas: [
         {
-          titulo: "Bolo de banana com nozes",
-          ingredientes: ["20g Farelo de aveia", "Banana", "1 Ovo", "30g Whey", "20g de Mix de Nuts (nozes)", "Fermento", "Opcional: Canela e Mel"],
+          titulo: "Bolo de chocolate",
+          ingredientes: ["20g Farelo de aveia", "Banana (50g)", "1 Ovo", "30g Whey", "20g de Chocolate", "Fermento", "Opcional: Adoçante, essência de baunilha",],
           imagem: "imagens/bolopaodemel.jpeg"
         },
         {
@@ -365,7 +424,7 @@ const categorias = {
         },
         {
           titulo: "Finalização",
-          texto: "Finalize como preferir. Sugestāo: Mel",
+          texto: "Calorias aprox; com chocolate: 400kcal. Sem o chocolate 295kcal",
           imagem: "imagens/bolobanana.jpeg"
         }
       ]
@@ -373,10 +432,11 @@ const categorias = {
     {
       nome: "Bombom de Whey",
       capa: "imagens/bombom.jpeg",
+      calorias: 270,
       etapas: [
         {
-          titulo: "Bombom de uva e morango",
-          ingredientes: ["20g de Chocolate", "30g de whey", "1/2 porçāo de fruta",],
+          titulo: "Bombom de whey",
+          ingredientes: ["20g de Chocolate", "30g de whey", "1/2 porçāo de fruta (50g uva)",],
           imagem: "imagens/bombom.jpeg"
         },
         {
@@ -407,11 +467,12 @@ const categorias = {
       ]
     },
     {
-      nome: "Panqueca com morangos",
+      nome: "Panqueca Americana",
       capa: "imagens/panqueca.jpeg",
+      calorias: 300,
       etapas: [
         {
-          titulo: "Panqueca com morangos",
+          titulo: "Panqueca Americana",
           ingredientes: ["20g Farelo de aveia", "1 Ovo", "5g Cacau 100%", "30g Whey", "Morangos", "Adoçante"],
           imagem: "imagens/panqueca.jpeg"
         },
@@ -428,34 +489,56 @@ const categorias = {
       ]
     },
     {
-      nome: "Pizza doce",
-      capa: "imagens/mingau.jpeg",
+      nome: "Brownie",
+      capa: "imagens/brownie.jpeg",
+      calorias: 270,
       etapas: [
         {
-          titulo: "Mingau de aveia",
-          ingredientes: [ "Farelo de aveia", "150/200ml de leite", "Whey", "Cacau 100%", "Banana", "Opcional: Adoçante e 20g de chocolate"],
-          imagem: "imagens/mingau1.jpeg"
+          titulo: "Brownie",
+          ingredientes: [ "30g de Whey", "70ml de leite desnatado", "10g Cacau 100%", "Fermento", "Adoçante", "20g de chocolate",],
+          imagem: "imagens/brownie1.jpg"
         },
         {
           titulo: "Preparo",
-          texto: "Adicione a aveia, cacau, leite, misture e leve ao fogo até pegar consistência de mingau, após, retire e adicione 30g de whey com o fogo já desligado.",
-          imagem: "imagens/mingau2.jpeg"
+          texto: "",
+          imagem: "imagens/brownie2.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/brownie3.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/brownie4.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/brownie5.jpg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/brownie6.jpg"
         },
         {
           titulo: "Finalizaçāo",
-          texto: "Finalize com toppings de sua preferência. Sugestāo: banana e chocolate.",
-          imagem: "imagens/mingau3.jpeg"
+          texto: "Calorias aprox; com chocolate: 270 kcal. Sem o chocolate: 160kcal",
+          imagem: "imagens/brownie7.jpg"
         }
       ]
     },
     {
       nome: "Bowl de iogurte",
       capa: "imagens/bowliogurte.jpeg",
+      calorias: 330,
       etapas: [
         {
           titulo: "Bowl de iogurte",
-          ingredientes: [ "170ml Iogurte natural", "30g Whey", "Frutas", "20g de Granola",],
-          imagem: "imagens/mingau1.jpeg"
+          ingredientes: [ "170ml Iogurte natural (desnatado)", "30g Whey", "Frutas (100g uva)", "20g de Granola",],
+          imagem: "imagens/bowliogurte.jpeg"
         },
         {
           titulo: "Preparo",
@@ -472,11 +555,12 @@ const categorias = {
     {
       nome: "Crepioca Agridoce",
       capa: "imagens/crepiocadoce.jpeg",
+      calorias: 305,
       etapas: [
         {
           titulo: "Crepioca AgriDoce",
-          ingredientes: [ "20g Tapioca", "Ovos", "15g de Doce de leite", "Banana", "20g Mussarela",],
-          imagem: "imagens/mingau1.jpeg"
+          ingredientes: [ "20g Tapioca", "1 ovo", "15g de Doce de leite", "Banana (50g)", "20g Mussarela",],
+          imagem: "imagens/crepiocadoce.jpeg"
         },
         {
           titulo: "Preparo",
@@ -486,27 +570,6 @@ const categorias = {
         {
           titulo: "Finalizaçāo",
           texto: "Finalize com recheio de doce de leite e bananas em rodelas. Caso prefira evitar o agridoce, basta não adicionar o recheio.",
-          imagem: "imagens/mingau3.jpeg"
-        }
-      ]
-    },
-    {
-      nome: "Mousse de maracujá",
-      capa: "imagens/moussemaracuja.jpeg",
-      etapas: [
-        {
-          titulo: "Mousse de maracujá",
-          ingredientes: ["170ml de Iogurte natural", "1 Maracujá", "30g Whey", "Adoçante",],
-          imagem: "imagens/mingau1.jpeg"
-        },
-        {
-          titulo: "Preparo",
-          texto: "Adicione a aveia, cacau, leite, misture e leve ao fogo até pegar consistência de mingau, após, retire e adicione 30g de whey com o fogo já desligado.",
-          imagem: "imagens/mingau2.jpeg"
-        },
-        {
-          titulo: "Finalizaçāo",
-          texto: "Finalize com toppings de sua preferência. Sugestāo: banana e chocolate.",
           imagem: "imagens/mingau3.jpeg"
         }
       ]
@@ -574,9 +637,22 @@ function abrirReceita(receita) {
 // Função que atualiza o modal com as informações da etapa atual da receita
 function exibirEtapa() {
   const etapa = receitaAtual.etapas[etapaAtual];
+  const infoCalorias = document.getElementById('info-calorias');
   imagemEtapa.src = etapa.imagem;
   tituloEtapa.textContent = etapa.titulo;
+  if (etapaAtual === 0 && receitaAtual.calorias) {
+    document.getElementById("info-calorias").textContent = `Em média: ${receitaAtual.calorias} kcal`;
+    infoCalorias.style.display = 'block';  // Mostra
+
+  } else {
+    document.getElementById("info-calorias").textContent = "";
+    infoCalorias.style.display = 'none';   // Esconde
+
+  }
+  
+
   textoEtapa.textContent = etapa.texto || ""; // para evitar undefined
+
 
   // Mostrar ingredientes somente se a etapa atual tiver ingredientes
   const ingredientesLista = document.getElementById("ingredientes-lista");
@@ -592,18 +668,18 @@ function exibirEtapa() {
   }
 }
 
-
 // Função para avançar para a próxima etapa da receita
 function proximaEtapa() {
-  etapaAtual = (etapaAtual + 1) % receitaAtual.etapas.length;   // Incrementa o índice da etapa atual, voltando para 0 se passar da última etapa
-  exibirEtapa();                                             // Atualiza o modal com a nova etapa
-}
+    etapaAtual = (etapaAtual + 1) % receitaAtual.etapas.length;
+    exibirEtapa();
+  };
 
 // Função para voltar para a etapa anterior da receita
 function etapaAnterior() {
-  etapaAtual = (etapaAtual - 1 + receitaAtual.etapas.length) % receitaAtual.etapas.length;    // Decrementa o índice da etapa atual, voltando para a última etapa se estiver na primeira
-  exibirEtapa();                                        // Atualiza o modal com a etapa anterior
-}
+    etapaAtual = (etapaAtual - 1 + receitaAtual.etapas.length) % receitaAtual.etapas.length;
+    exibirEtapa();
+   
+  };
 
 // Função para fechar o modal, removendo a classe "ativo"
 function fecharModal() {
@@ -621,3 +697,24 @@ document.addEventListener("keydown", function(event) {
   }
 });
 
+const listaDeCompras = [
+  "Pães (pão de forma, pão sírio, pão para hambúrguer)","Rap10", "Whey Protein", "Mussarela", "Creme de ricota light / requeijão light", "Queijo cheddar", "Iogurte natural desnatado", "Leite desnatado", "Frango desfiado", "Carnes Magras", "Ovos", "Farelo de aveia", "Granola", "Doce de leite", "Chocolate", "Cacau 100%", "Fermento", "Adoçante", "Extrato de tomate", "Ketchup e mostarda", "Temperos", "Alface e tomate", "Frutas variadas", "Mel",
+];
+
+function mostrarLista() {
+  const modal = document.getElementById("modal-compras");
+  const lista = document.getElementById("lista-compras");
+
+  lista.innerHTML = ""; // limpa antes de adicionar
+  listaDeCompras.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    lista.appendChild(li);
+  });
+
+  modal.classList.add("ativo");
+}
+
+function fecharModalCompras() {
+  document.getElementById("modal-compras").classList.remove("ativo");
+}

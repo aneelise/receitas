@@ -13,8 +13,10 @@
     <nav class="menu">
       <a href="#sobre">Início</a>
       <a href="#sobre">Sobre</a>
-      <a href="#lanches-salgados">Salgados</a>
+      <a href="#lanches-salgados">Salgadas</a>
       <a href="#lanches-doces">Doces</a>
+      <a href="#links">Links</a>
+      <button class="botao-compras" onclick="mostrarLista()">Lista de Compras 🛒</button>
     </nav>
   </header>
   
@@ -33,6 +35,7 @@
   </p>
   
   <div class="grade-receitas" id="grade-receitas"></div> <!-- grade é a parte onde vai os cards -->
+
 
   <div class="aviso-receitas">
     <p>
@@ -53,12 +56,14 @@
     <div class="conteudo-modal">
       <button class="botao-fechar" onclick="fecharModal()">X</button>
       
-
+      
       <img id="imagem-etapa" src="" alt="Etapa da receita">
       <h3 id="titulo-etapa"></h3>
+      <p id="info-calorias" class="info-calorias"></p>
       <div class="ingredientes" id="ingredientes-lista"></div>
       
       <p id="texto-etapa"></p>
+    
 
       <div class="controles">
         <button onclick="etapaAnterior()">Anterior</button>
@@ -67,12 +72,42 @@
     </div>
   </div>
 
-  
+  <!-- Modal flutuante da Lista de Compras -->
+  <div id="modal-compras" class="modal-compras">
+    <div class="conteudo-compras">
+      <button class="botao-fechar" onclick="fecharModalCompras()">X</button>
+      <h2>Sua Lista de Compras 🛒</h2>
+      <ul id="lista-compras"></ul>
+    </div>
+  </div>
+
+  <h2 id="links">Links Úteis</h2>
+<p class="descricaolink">
+  Se você ama cozinhar, valoriza uma vida saudável e quer tornar sua dieta ainda mais saborosa e prática no dia a dia, <br>aqui estão os acessórios e produtos que eu uso e recomendo!
+  <br>Clique nos botões abaixo para conhecer cada item.
+</p>
+
+<div class="grade-links">
+  <!-- Exemplo de card de link -->
+  <div class="card-link">
+    <img src="imagens/mixer.png" alt="Produto Shoope">
+    <p>Mixer Elétrico</p>
+    <a href="https://shein.com/exemplo-link" target="_blank" class="botao-link">Ver Produto</a>
+  </div>
+
+  <div class="card-link">
+    <img src="imagens/minimaquina.png" alt="Produto Shopee">
+    <p>Mini Máquina</p>
+    <a href="https://shopee.com.br/exemplo-link" target="_blank" class="botao-link">Ver Produto</a>
+  </div>
+</div>
 
   <footer class="rodape">
     <p>&copy; 2025 Desenvolvido por Ane Elise | Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
+
+  
 </body>
 </html>
