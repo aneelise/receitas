@@ -338,6 +338,28 @@ const categorias = {
           }
         ]
       },
+      {
+        nome: "Crepioca Agridoce",
+        capa: "imagens/crepiocadoce.jpeg",
+        calorias: 305,
+        etapas: [
+          {
+            titulo: "Crepioca AgriDoce",
+            ingredientes: [ "20g Tapioca", "1 ovo", "15g de Doce de leite", "Banana (50g)", "20g Mussarela",],
+            imagem: "imagens/crepiocadoce.jpeg"
+          },
+          {
+            titulo: "Preparo",
+            texto: "Em um recipiente, misture a tapioca, os ovos e o sal. Em uma frigideira, coloque uma fatia de mussarela e, por cima, despeje a mistura. Tampe a frigideira e deixe cozinhar até firmar.",
+            imagem: "imagens/mingau2.jpeg"
+          },
+          {
+            titulo: "Finalizaçāo",
+            texto: "Finalize com recheio de doce de leite e bananas em rodelas. Caso prefira evitar o agridoce, basta não adicionar o recheio.",
+            imagem: "imagens/mingau3.jpeg"
+          }
+        ]
+      },
     ],
   
 
@@ -490,7 +512,7 @@ const categorias = {
     },
     {
       nome: "Brownie",
-      capa: "imagens/brownie.jpeg",
+      capa: "imagens/brownie.png",
       calorias: 270,
       etapas: [
         {
@@ -553,23 +575,43 @@ const categorias = {
       ]
     },
     {
-      nome: "Crepioca Agridoce",
-      capa: "imagens/crepiocadoce.jpeg",
-      calorias: 305,
+      nome: "Picolé Proteico",
+      capa: "imagens/forminhapicole.png",
+      calorias: 355,
       etapas: [
         {
-          titulo: "Crepioca AgriDoce",
-          ingredientes: [ "20g Tapioca", "1 ovo", "15g de Doce de leite", "Banana (50g)", "20g Mussarela",],
-          imagem: "imagens/crepiocadoce.jpeg"
+          titulo: "Picolé Proteico",
+          ingredientes: [ "170ml Iogurte natural (desnatado)", "30g Whey", "20g Doce de leite", "Opcional: 20g de chocolate 70%"],
+          imagem: "imagens/bowliogurte.jpeg"
         },
         {
           titulo: "Preparo",
-          texto: "Em um recipiente, misture a tapioca, os ovos e o sal. Em uma frigideira, coloque uma fatia de mussarela e, por cima, despeje a mistura. Tampe a frigideira e deixe cozinhar até firmar.",
+          texto: "",
+          imagem: "imagens/mingau2.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/mingau2.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/mingau2.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/mingau2.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "A porçāo toda: aprox; 355kcal com chocolate. Sem chocolate 245kcal.",
           imagem: "imagens/mingau2.jpeg"
         },
         {
           titulo: "Finalizaçāo",
-          texto: "Finalize com recheio de doce de leite e bananas em rodelas. Caso prefira evitar o agridoce, basta não adicionar o recheio.",
+          texto: "Porçāo por picolé com chocolate: 118kcal e Sem Chocolate: 82kcal",
           imagem: "imagens/mingau3.jpeg"
         }
       ]

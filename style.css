@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+Rounded+1c&family=Montserrat:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Indie+Flower&display=swap');
 /* ===== VARIÁVEIS DE COR ===== */
 :root {
   --marrom-claro: #a8857d;
@@ -78,12 +78,26 @@ body {
 }
 
 .cartao-receita p {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
   font-size: 1rem;
-  color: #f4f4f4;
+  color: var(--marrom-terra);
   text-align: center;
-  padding: 1rem;
+  padding: 0.7rem 1.2rem;
   font-weight: 400;
-  margin: 0 auto;           /*largura do nome la no card*/
+  margin: 0 auto;
+  max-width: 80%;
+  background: rgba(168, 133, 125, 0.15); /* marrom-claro com transparência suave */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(168, 133, 125, 0.2); /* sombra leve e suave */
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cartao-receita p:hover {
+  color: var(--verde-escuro)
+  background: rgba(164, 139, 131, 0.3);
+  cursor: default;
 }
 
 /* ===== MODAL ===== */
@@ -128,13 +142,11 @@ body {
 
 .conteudo-modal img {
   width: 100%;
-  max-width: 350px;            /* limita a largura da imagem */
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Evita cortes */
   border-radius: 12px;
   margin-bottom: 1rem;
-  transition: opacity 0.3s ease;
-  
 }
 
 .conteudo-modal h3 {
@@ -379,8 +391,8 @@ h2::after {
 /* LINKS */
 .grade-links {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 2rem 1rem;
 }
@@ -474,12 +486,13 @@ h2::after {
   }
 
   .conteudo-modal {
-    padding: 1rem 0.8rem;
+    padding: 0.5rem;
     max-width: 95%;
   }
 
   .conteudo-modal img {
-    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
   }
 
   .descricao,
@@ -521,7 +534,7 @@ h2::after {
 
 
 /* === RESPONSIVIDADE GERAL === */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
   .titulo {
     font-size: 2rem;
@@ -542,12 +555,26 @@ h2::after {
   }
 
   .conteudo-modal {
-    padding: 1rem 0.8rem;
-    max-width: 95%;
+    max-width: 90vw;        /* Reduz largura */
+    max-height: 80vh;       /* Reduz altura */
+    padding: 0.8rem;        /* Menos espaço interno */
   }
 
   .conteudo-modal img {
     max-width: 100%;
+  }
+
+  .conteudo-modal h3 {
+    font-size: 0.9rem;
+  }
+
+  .conteudo-modal p {
+    font-size: 0.9rem;
+  }
+
+  .controles button {
+    padding: 0.5rem;
+    font-size: 0.85rem;
   }
 
   .descricao,
@@ -573,35 +600,40 @@ h2::after {
   .controles button {
     width: 100%;
   }
+
+.navbar {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
-/* Para telas MUITO pequenas tipo celular antigo */
-@media (max-width: 480px) {
-  .titulo {
-    font-size: 1.6rem;
-  }
+.menu {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: nowrap;
+}
 
-  .destaque {
-    font-size: 1.5rem;
-  }
+.menu a {
+  margin: 0;
+  font-size: 0.85rem;
+}
 
-  .descricao,
-  .aviso-receitas {
-    font-size: 0.85rem;
-  }
+.botao-compras {
+  font-size: 0.8rem;
+  padding: 6px 10px;
+  border-radius: 16px;
+}
+.modal-compras {
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
 
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
-
-  .menu a {
-    margin: 0.5rem;
-  }
-
-  .botao-fechar {
-    top: 8px;
-    right: 8px;
-    font-size: 0.9rem;
-    padding: 0.3rem 0.6rem;
-  }
+.conteudo-compras {
+  padding: 1rem;
+  width: 90%;
+  max-height: 85vh;
+  margin: auto;
+  box-sizing: border-box;
 }
