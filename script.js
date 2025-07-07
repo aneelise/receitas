@@ -975,3 +975,10 @@ document.querySelector('.scroll-indicator')?.addEventListener('click', () => {
     behavior: 'smooth'
   });
 });
+
+  const toggleBtn = document.getElementById('nav-toggle');
+  const navMenu = document.querySelector('.nav-menu');
+
+  toggleBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('ativo');
+  });
