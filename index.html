@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas Saudáveis</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="imagens/iconfood.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <i class="fas fa-utensils"></i>
+        <span>Receitas Saudáveis</span>
+      </div>
+      
+      <div class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link">Início</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#salgadas" class="nav-link">Salgadas</a>
+        <a href="#doces" class="nav-link">Doces</a>
+        <a href="#links" class="nav-link">Links</a>
+      </div>
+      
+      <div class="nav-actions">
+        <button class="shopping-btn" onclick="mostrarLista()">
+          <i class="fas fa-shopping-cart"></i>
+          <span>Lista de Compras</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="title-main">Receitas</span>
+          <span class="title-accent">Saudáveis</span>
+        </h1>
+        <p class="hero-subtitle">Transforme sua alimentação em uma experiência deliciosa e nutritiva</p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Receitas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Saudável</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Sofrimento</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating-card">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="floating-card">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <div class="floating-card">
+          <i class="fas fa-fire"></i>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nossa Missão</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Aqui você vai encontrar opções deliciosas e saudáveis que mostram que <strong>dieta não precisa ser sinônimo de sofrimento</strong>.
+            Dá pra inovar e saborear receitas incríveis usando ingredientes simples do seu plano alimentar. <strong>Comer bem pode (e deve!) ser gostoso!</strong>
+          </p>
+          <p>
+            Nossa missão é justamente essa: mostrar que, com criatividade, dá pra transformar o básico em pratos variados, saborosos e surpreendentes.
+            E quando chega o final de semana e bate aquela vontade de algo diferente, você consegue preparar uma receitinha saudável e matar a vontade sem sair do foco.
+          </p>
+          <p>
+            Assim, fica muito mais fácil <strong>manter a adesão ao plano alimentar</strong> e transformar a alimentação saudável em um estilo de vida leve, prazeroso e sustentável.
+          </p>
+        </div>
+        
+        <div class="about-features">
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Receitas Variadas</h3>
+            <p>Opções salgadas e doces para todos os momentos</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>100% Saudável</h3>
+            <p>Ingredientes nutritivos e balanceados</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Fácil e Rápido</h3>
+            <p>Preparo simples para o dia a dia</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="notice">
+        <div class="notice-icon">
+          <i class="fas fa-info-circle"></i>
+        </div>
+        <div class="notice-content">
+          <strong>Observação:</strong> As receitas listam as quantidades consideráveis, mas elas devem ser ajustadas de acordo com o seu plano alimentar. Substitua conforme as medidas indicadas na sua dieta.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recipes Sections -->
+  <section id="salgadas" class="recipes-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Receitas Salgadas</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Sabores incríveis para suas refeições principais</p>
+      </div>
+      <div class="recipes-grid" id="lanches-salgados"></div>
+    </div>
+  </section>
+
+  <section id="doces" class="recipes-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Receitas Doces</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Delícias saudáveis para adoçar seu dia</p>
+      </div>
+      <div class="recipes-grid" id="lanches-doces"></div>
+    </div>
+  </section>
+
+  <!-- Links Section -->
+  <section id="links" class="links-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Links Úteis</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">
+          Se você ama cozinhar, valoriza uma vida saudável e quer tornar sua dieta ainda mais saborosa e prática no dia a dia,
+          aqui estão os acessórios e produtos que eu uso e recomendo!
+        </p>
+      </div>
+      
+      <div class="links-grid">
+        <div class="link-card">
+          <div class="link-image">
+            <img src="imagens/mixer.png" alt="Mixer Elétrico">
+            <div class="link-overlay">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="link-content">
+            <h3>Mixer Elétrico</h3>
+            <p>Perfeito para preparos rápidos</p>
+            <a href="https://shein.com/exemplo-link" target="_blank" class="link-btn">
+              Ver Produto
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="link-card">
+          <div class="link-image">
+            <img src="imagens/minimaquina.png" alt="Mini Máquina">
+            <div class="link-overlay">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="link-content">
+            <h3>Mini Máquina</h3>
+            <p>Compacta e eficiente</p>
+            <a href="https://shopee.com.br/exemplo-link" target="_blank" class="link-btn">
+              Ver Produto
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="link-card">
+          <div class="link-image">
+            <img src="imagens/forminhapicole.png" alt="Forma para sorvete">
+            <div class="link-overlay">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="link-content">
+            <h3>Forma para Sorvete</h3>
+            <p>Para seus picolés proteicos</p>
+            <a href="https://shopee.com.br/exemplo-link" target="_blank" class="link-btn">
+              Ver Produto
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>`
+    </div>
+  </section>
+
+  <!-- Recipe Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-backdrop" onclick="fecharModal()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="fecharModal()">
+        <i class="fas fa-times"></i>
+      </button>
+      
+      <div class="modal-header">
+        <h3 id="titulo-etapa"></h3>
+        <div id="info-calorias" class="calories-badge"></div>
+      </div>
+      
+      <div class="modal-body">``
+        <div class="modal-image">
+          <img id="imagem-etapa" src="" alt="Etapa da receita">
+        </div>
+        
+        <div class="modal-info">
+          <div class="ingredients" id="ingredientes-lista"></div>
+          <div class="instructions">
+            <p id="texto-etapa"></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-controls">
+        <button class="control-btn prev" onclick="etapaAnterior()">
+          <i class="fas fa-chevron-left"></i>
+          Anterior
+        </button>
+        <button class="control-btn next" onclick="proximaEtapa()">
+          Próximo
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping List Modal -->
+  <div id="modal-compras" class="modal shopping-modal">
+    <div class="modal-backdrop" onclick="fecharModalCompras()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="fecharModalCompras()">
+        <i class="fas fa-times"></i>
+      </button>
+      
+      <div class="modal-header">
+        <h2>
+          <i class="fas fa-shopping-cart"></i>
+          Sua Lista de Compras
+        </h2>
+      </div>
+      
+      <div class="modal-body">
+        <ul id="lista-compras" class="shopping-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <i class="fas fa-utensils"></i>
+          <span>Receitas Saudáveis</span>
+        </div>
+        <p>&copy; 2025 Desenvolvido por Ane Elise | Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

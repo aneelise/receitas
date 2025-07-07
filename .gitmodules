@@ -1,0 +1,3 @@
+[submodule "receitas"]
+	path = receitas
+	url = https://github.com/aneelise/receitas
