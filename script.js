@@ -24,12 +24,12 @@ const categorias = {
       ]
     },
     {
-      nome: "Pizza de frango",
+      nome: "Pizza diet",
       capa: "imagens/pizzafake.jpeg",
       calorias: 360,
       etapas: [
         {
-          titulo: "Pizza de frango",
+          titulo: "Pizza diet",
           ingredientes:[ "1 Pão Sírio", "100g Frango desfiado", "Extrato de tomate/passata", "Oregáno", "10g Mussarela", "Brócolis", "Tomate" ],
           imagem: "imagens/pizza1.jpg"
         },
@@ -56,7 +56,12 @@ const categorias = {
         {
           titulo: "Finalização",
           texto: "Finalize como preferir de acordo com as quantidades da sua dieta",
-          imagem: "imagens/pizza6.jpg"
+          imagem: "imagens/pizza7.jpg"
+        },
+           {
+          titulo: "Finalização",
+          texto: "Finalize como preferir de acordo com as quantidades da sua dieta",
+          imagem: "imagens/pizza8.jpg"
         }
       ]
     },
@@ -194,24 +199,39 @@ const categorias = {
         ]
       },
       {
-        nome: "Cheddar McMelti",
-        capa: "imagens/croquete.jpeg",
+        nome: "Rap10 Cheddar",
+        capa: "imagens/rapcapa.jpeg",
         calorias: 395,
         etapas: [
           {
-            titulo: "Cheddar McMelti",
+            titulo: "Rap10 Cheddar",
             ingredientes: ["1 Rap 10", "120g patinho moído cru", "20g cheddar", "Opcionais: cebola, alface, tomate", ],
-            imagem: "imagens/croquete.jpeg"
+            imagem: "imagens/rap1.jpg"
           },
           {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/croquete.jpeg"
+            imagem: "imagens/rap2.jpg"
+          },
+            {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/rap3.jpg"
+          },
+            {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/rap4.jpg"
+          },
+            {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/rap5.jpg"
           },
           {
             titulo: "Finalização",
-            texto: "Finalize como preferir.",
-            imagem: "imagens/croquete.jpeg"
+            texto: "Finalize como preferir. Você pode usar picles, palmito, frango... ",
+            imagem: "imagens/rap6.jpg"
           }
         ]
       },
@@ -318,7 +338,7 @@ const categorias = {
       },
       {
         nome: "Caldo de abóbora",
-        capa: "imagens/toastfrango.jpeg",
+        capa: "imagens/caldo.png",
         calorias: 340,
         etapas: [
           {
@@ -576,13 +596,13 @@ const categorias = {
     },
     {
       nome: "Picolé Proteico",
-      capa: "imagens/forminhapicole.png",
+      capa: "imagens/picole.jpeg",
       calorias: 355,
       etapas: [
         {
           titulo: "Picolé Proteico",
-          ingredientes: [ "170ml Iogurte natural (desnatado)", "30g Whey", "20g Doce de leite", "Opcional: 20g de chocolate 70%"],
-          imagem: "imagens/forminhapicole.png"
+          ingredientes: [ "170ml Iogurte natural (desnatado)", "30g Whey", "20g Doce de leite", "Opcional: 20g de chocolate"],
+          imagem: "imagens/picole.jpeg"
         },
         {
           titulo: "Preparo",
