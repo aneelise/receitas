@@ -156,45 +156,90 @@ const categorias = {
     },
     {
       nome: "Pastel",
-      capa: "imagens/pasteljpeg.jpeg",
-      calorias: 355,
+      capa: "imagens/pastelcapa.jpg",
+      calorias: 250,
       etapas: [
         {
           titulo: "Pastel de rap10",
-          ingredientes: ["1 Rap10", "100g Frango ou Carne", "30g Creme de ricota light ou requeijão light",],
-          imagem: "imagens/pasteljpeg.jpeg"
+          ingredientes: ["1 Rap10", "80g Frango ou Carne", "Requeijāo Light",],
+          imagem: "imagens/pastel1.jpg"
         },
         {
           titulo: "Preparo",
-          texto: "Umedeça o Rap10 com um pouco de água para deixá-lo mais maleável. Adicione a proteína de sua preferência no centro. Depois, passe creme de ricota apenas nas bordas para ajudar a fechar. Feche com um garfo para selar bem e, se quiser um toque dourado, pincele uma gema de ovo por cima antes de levar a airfryer.",
-          imagem: "imagens/pasteljpeg.jpeg"
+          texto: "",
+          imagem: "imagens/pastel2.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pastel3.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pastel4.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pastel5.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pastel6.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pastel7.jpg"
         },
         {
           titulo: "Finalização",
-          texto: "Servir com uma saladinha.",
-          imagem: "imagens/pasteljpeg.jpeg"
+          texto: "",
+          imagem: "imagens/pastel8.jpg"
         }
       ]
       },
       {
         nome: "Patê de ovos",
         capa: "imagens/pateovos.jpeg",
-        calorias: 200,
+        calorias: 275,
         etapas: [
           {
             titulo: "Patê de ovos",
-            ingredientes: ["2 Ovos Cozidos","30g Requeijão light (ou creme de ricota light)", "Sal e temperos de sua preferência",],
-            imagem: "imagens/pateovos.jpeg"
+            ingredientes: ["2 Ovos Cozidos","30g Requeijão light", "Sal e temperos de sua preferência", "25g de pāo integral (opcional)"],
+            imagem: "imagens/pate1.jpg"
           },
           {
             titulo: "Preparo",
-            texto: "Cozinhe o ovo, depois amasse com um garfo e misture com 30g de requeijão light. Adicione sal, oregáno e temperos a gosto.",
-            imagem: "imagens/pateovos.jpeg"
+            texto: "",
+            imagem: "imagens/pate2.jpg"
+          },
+             {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/pate3.jpg"
+          },
+             {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/pate4.jpg"
+          },
+             {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/pate5.jpg"
+          },
+             {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/pate6.jpg"
           },
           {
             titulo: "Finalização",
-            texto: "Adicione o patê onde preferir. Sugestão: Colocar no pão, tapioca...",
-            imagem: "imagens/pateovos.jpeg"
+            texto: "",
+            imagem: "imagens/pate7.jpg"
           }
         ]
       },
@@ -343,7 +388,7 @@ const categorias = {
         etapas: [
           {
             titulo: "Caldo de abóbora",
-            ingredientes: ["150g de abóbora cabotia cozida", "100g Frango desfiado", "Agua aos poucos", "100g macarrão cozido",],
+            ingredientes: ["150g de abóbora cabotia cozida", "100g Frango desfiado", "100g macarrão cozido",],
             imagem: "imagens/toastfrango.jpeg"
           },
           {
@@ -353,29 +398,29 @@ const categorias = {
           },
           {
             titulo: "Finalização",
-            texto: "Essa receita também pode ser consumida sem o macarrão, resultando em um caldo delicioso, nutritivo e rico em legumes e proteínas. Aprox. 225kcal sem o macarrão e 340kcal com macarrão",
+            texto: "",
             imagem: "imagens/toastfrango.jpeg"
           }
         ]
       },
       {
-        nome: "Crepioca Agridoce",
+        nome: "Torta de frigideira",
         capa: "imagens/crepiocadoce.jpeg",
         calorias: 305,
         etapas: [
           {
-            titulo: "Crepioca AgriDoce",
-            ingredientes: [ "20g Tapioca", "1 ovo", "15g de Doce de leite", "Banana (50g)", "20g Mussarela",],
+            titulo: "Torta de frigideira",
+            ingredientes: [ "1 Ovo", "10g tapioca", "10g farinha de aveia", "20g requeijāo light", "80g de frango desfiado", "Fermento", "Sal e temperos a gosto", "Opcional: Queijo mussarela",],
             imagem: "imagens/crepiocadoce.jpeg"
           },
           {
             titulo: "Preparo",
-            texto: "Em um recipiente, misture a tapioca, os ovos e o sal. Em uma frigideira, coloque uma fatia de mussarela e, por cima, despeje a mistura. Tampe a frigideira e deixe cozinhar até firmar.",
+            texto: "",
             imagem: "imagens/crepiocadoce.jpeg"
           },
           {
             titulo: "Finalização",
-            texto: "Finalize com recheio de doce de leite e bananas em rodelas. Caso prefira evitar o agridoce, basta não adicionar o recheio.",
+            texto: "Se quiser adicionar queijo mussarela, uma fatia tem em torno de 20g, o que adiciona cerca de 70 kcal à receita. Assim, a receita totaliza aproximadamente 370 kcal.",
             imagem: "imagens/crepiocadoce.jpeg"
           }
         ]
@@ -386,23 +431,23 @@ const categorias = {
   "Lanches Doces": [
 
     {
-      nome: "Smoothie",
-      capa: "imagens/smoothie.jpeg",
-      calorias: 200,
+      nome: "Muffin de paçoca",
+      capa: "imagens/pacocacapa.jpeg",
+      calorias: 380,
       etapas: [
         {
-          titulo: "Smoothie de Morango",
-          ingredientes: ["200g Morangos Congelados", "60ml Leite desnatado", "30g de Whey",],
-          imagem: "imagens/smoothie.jpeg"
+          titulo: "Muffin de paçoca",
+          ingredientes: ["1 ovo", "20g farelo de aveia", "1 banana", "Fermento", "Adoçante", "20g whey", "1 paçoca rolha"],
+          imagem: "imagens/pacocacapa.jpeg"
         },
         {
           titulo: "Preparo",
-          texto: "No processador, bata os morangos congelados e vá adicionando o leite aos poucos, após adicione o whey até obter uma consistência cremosa, similar à de um sorvete.",
+          texto: "",
           imagem: "imagens/smoothie.jpeg"
         },
         {
           titulo: "Finalização",
-          texto: "Finalize como preferir. Sugestão: morangos picados e granola.",
+          texto: "",
           imagem: "imagens/smoothie.jpeg"
         }
       ]
@@ -451,23 +496,73 @@ const categorias = {
     },
     {
       nome: "Bolo de Chocolate",
-      capa: "imagens/bolobanana.jpeg",
-      calorias: 400,
+      capa: "imagens/bolocapa.jpg",
+      calorias: 330,
       etapas: [
         {
           titulo: "Bolo de chocolate",
-          ingredientes: ["20g Farelo de aveia", "Banana (50g)", "1 Ovo", "30g Whey", "20g de Chocolate", "Fermento", "Opcional: Adoçante, essência de baunilha",],
-          imagem: "imagens/bolobanana.jpeg"
+          ingredientes: ["1 Ovo", "20g Farinha de aveia", "30g Whey", "Fermento","Adoçante", "10g Cacau em pó", "10g de Chocolate",],
+          imagem: "imagens/bolo1.jpg"
         },
         {
           titulo: "Preparo",
-          texto: "Amasse a banana e adicione 1 ovo, farelo de aveia e whey, misturando bem. Em seguida, acrescente o fermento e a canela, e misture novamente até ficar homogêneo. Transfira a massa para um recipiente, salpique as nozes por cima e leve a airfryer para assar por cerca de 15 minutos.",
-          imagem: "imagens/bolobanana.jpeg"
+          texto: "",
+          imagem: "imagens/bolo2.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo3.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo4.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo5.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo6.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo7.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo8.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo9.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo10.jpg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo11.jpg"
+        },
+             {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bolo12.jpg"
         },
         {
           titulo: "Finalização",
-          texto: "Calorias aprox; com chocolate: 400kcal. Sem o chocolate 295kcal",
-          imagem: "imagens/bolobanana.jpeg"
+          texto: "Calorias aprox; com chocolate: 330kcal. Sem o chocolate 280kcal",
+          imagem: "imagens/bolo13.jpg"
         }
       ]
     },
@@ -511,22 +606,67 @@ const categorias = {
     {
       nome: "Panqueca Americana",
       capa: "imagens/panqueca.jpeg",
-      calorias: 300,
+      calorias: 350,
       etapas: [
         {
           titulo: "Panqueca Americana",
-          ingredientes: ["20g Farelo de aveia", "1 Ovo", "5g Cacau 100%", "30g Whey", "Morangos", "Adoçante"],
-          imagem: "imagens/panqueca.jpeg"
+          ingredientes: ["20g Farelo de aveia", "1 Ovo", "30g Whey", "1 Banana", "Adoçante"],
+          imagem: "imagens/panqueca1.jpg"
         },
         {
           titulo: "Preparo",
-          texto: "Para a massa, misture o ovo, o farelo de aveia, o cacau e o adoçante até obter uma mistura homogênea. Despeje em uma frigideira tampada e leve ao fogo baixo até que a massa cozinhe e fique com textura de panqueca.",
-          imagem: "imagens/panqueca.jpeg"
+          texto: "",
+          imagem: "imagens/panqueca2.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca3.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca4.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca5.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca6.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca7.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca8.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca9.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca10.jpg"
+        },
+           {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/panqueca11.jpg"
         },
         {
           titulo: "Finalização",
-          texto: "Para o recheio, prepare um creminho misturando o whey com água aos poucos até obter uma textura cremosa. Em seguida, adicione morangos picados",
-          imagem: "imagens/panqueca.jpeg"
+          texto: "",
+          imagem: "imagens/panqueca12.jpg"
         }
       ]
     },
@@ -597,42 +737,42 @@ const categorias = {
     {
       nome: "Picolé Proteico",
       capa: "imagens/picole.jpeg",
-      calorias: 355,
+      calorias: 123,
       etapas: [
         {
           titulo: "Picolé Proteico",
-          ingredientes: [ "170ml Iogurte natural (desnatado)", "30g Whey", "20g Doce de leite", "Opcional: 20g de chocolate"],
-          imagem: "imagens/picole.jpeg"
+          ingredientes: [ "170ml Iogurte natural (desnatado)", "30g Whey", "Doce de leite",],
+          imagem: "imagens/picole1.jpg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/forminhapicole.png"
+          imagem: "imagens/picole2.jpg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/forminhapicole.png"
+          imagem: "imagens/picole3.jpg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/forminhapicole.png"
+          imagem: "imagens/picole4.jpg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/forminhapicole.png"
+          imagem: "imagens/picole5.jpg"
         },
         {
           titulo: "Preparo",
-          texto: "A porção toda: aprox; 355kcal com chocolate. Sem chocolate 245kcal.",
-          imagem: "imagens/forminhapicole.png"
+          texto: "A porção toda: aprox; 368kcal.",
+          imagem: "imagens/picole6.jpg"
         },
         {
           titulo: "Finalização",
-          texto: "Porção por picolé com chocolate: 118kcal e Sem Chocolate: 82kcal",
-          imagem: "imagens/forminhapicole.png"
+          texto: "Porção por picolé: 123kcal.",
+          imagem: "imagens/picole7.jpg"
         }
       ]
     },
