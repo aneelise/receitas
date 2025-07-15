@@ -382,41 +382,56 @@ const categorias = {
         ]
       },
       {
-        nome: "Caldo de abóbora",
-        capa: "imagens/caldo.png",
+        nome: "Caldo de legumes",
+        capa: "imagens/caldocapa.jpg",
         calorias: 340,
         etapas: [
           {
             titulo: "Caldo de abóbora",
             ingredientes: ["150g de abóbora cabotia cozida", "100g Frango desfiado", "100g macarrão cozido",],
-            imagem: "imagens/toastfrango.jpeg"
+            imagem: "imagens/caldo1.jpg"
           },
           {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/toastfrango.jpeg"
+            imagem: "imagens/caldo2.jpg"
+          },
+               {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/caldo3.jpg"
+          },
+               {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/caldo4.jpg"
+          },
+               {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/caldo5.jpg"
           },
           {
             titulo: "Finalização",
             texto: "",
-            imagem: "imagens/toastfrango.jpeg"
+            imagem: "imagens/caldo6.jpg"
           }
         ]
       },
       {
         nome: "Torta de frigideira",
-        capa: "imagens/crepiocadoce.jpeg",
+        capa: "imagens/torta.png",
         calorias: 305,
         etapas: [
           {
             titulo: "Torta de frigideira",
             ingredientes: [ "1 Ovo", "10g tapioca", "10g farinha de aveia", "20g requeijāo light", "80g de frango desfiado", "Fermento", "Sal e temperos a gosto", "Opcional: Queijo mussarela",],
-            imagem: "imagens/crepiocadoce.jpeg"
+            imagem: "imagens/torta.png"
           },
           {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/crepiocadoce.jpeg"
+            imagem: "imagens/torta.png"
           },
           {
             titulo: "Finalização",
