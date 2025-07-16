@@ -572,6 +572,25 @@ body {
   justify-content: center;
 }
 
+.cartao-receita {
+  position: relative;
+  overflow: visible; /* deixa o conteúdo sair pra fora se precisar */
+}
+
+.kcal-card {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+
 /* ===== LINKS SECTION - Seção de links úteis/produtos ===== */
 .links-section {
   padding: var(--space-24) 0;

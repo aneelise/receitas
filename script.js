@@ -250,38 +250,43 @@ const categorias = {
       },
       {
         nome: "Rap10 Cheddar",
-        capa: "imagens/rapcapa.jpeg",
+        capa: "imagens/rapcapa.webp",
         calorias: 395,
         etapas: [
           {
             titulo: "Rap10 Cheddar",
             ingredientes: ["1 Rap 10", "120g patinho moído cru", "20g cheddar", "Opcionais: cebola, alface, tomate", ],
-            imagem: "imagens/rap1.jpg"
+            imagem: "imagens/rapcapa2.webp"
           },
           {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/rap2.jpg"
+            imagem: "imagens/rap1.webp"
           },
             {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/rap3.jpg"
+            imagem: "imagens/rap2.webp"
           },
             {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/rap4.jpg"
+            imagem: "imagens/rap3.webp"
           },
             {
             titulo: "Preparo",
             texto: "",
-            imagem: "imagens/rap5.jpg"
+            imagem: "imagens/rap4.webp"
+          },
+                {
+            titulo: "Preparo",
+            texto: "",
+            imagem: "imagens/rap5.webp"
           },
           {
             titulo: "Finalização",
-            texto: "Finalize como preferir. Você pode usar picles, palmito, frango... ",
-            imagem: "imagens/rap6.jpg"
+            texto: "Finalize como preferir.",
+            imagem: "imagens/rap6.webp"
           }
         ]
       },
@@ -625,110 +630,110 @@ const categorias = {
     },
     {
       nome: "Panqueca Americana",
-      capa: "imagens/panqueca.jpeg",
+      capa: "imagens/panqueca.webp",
       calorias: 350,
       etapas: [
         {
           titulo: "Panqueca Americana",
           ingredientes: ["20g Farelo de aveia", "1 Ovo", "30g Whey", "1 Banana", "Adoçante"],
-          imagem: "imagens/panqueca1.jpg"
+          imagem: "imagens/panqueca1.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca2.jpg"
+          imagem: "imagens/panqueca2.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca3.jpg"
+          imagem: "imagens/panqueca3.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca4.jpg"
+          imagem: "imagens/panqueca4.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca5.jpg"
+          imagem: "imagens/panqueca5.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca6.jpg"
+          imagem: "imagens/panqueca6.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca7.jpg"
+          imagem: "imagens/panqueca7.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca8.jpg"
+          imagem: "imagens/panqueca8.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca9.jpg"
+          imagem: "imagens/panqueca9.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca10.jpg"
+          imagem: "imagens/panqueca10.webp"
         },
            {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/panqueca11.jpg"
+          imagem: "imagens/panqueca11.webp"
         },
         {
           titulo: "Finalização",
           texto: "",
-          imagem: "imagens/panqueca12.jpg"
+          imagem: "imagens/panqueca12.webp"
         }
       ]
     },
     {
       nome: "Brownie",
-      capa: "imagens/brownie.png",
+      capa: "imagens/brownie.webp",
       calorias: 270,
       etapas: [
         {
           titulo: "Brownie",
           ingredientes: [ "30g de Whey", "70ml de leite desnatado", "10g Cacau 100%", "Fermento", "Adoçante", "20g de chocolate",],
-          imagem: "imagens/brownie1.jpg"
+          imagem: "imagens/brownie1.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/brownie2.jpg"
+          imagem: "imagens/brownie2.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/brownie3.jpg"
+          imagem: "imagens/brownie3.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/brownie4.jpg"
+          imagem: "imagens/brownie4.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/brownie5.jpg"
+          imagem: "imagens/brownie5.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/brownie6.jpg"
+          imagem: "imagens/brownie6.webp"
         },
         {
           titulo: "Finalização",
           texto: "Calorias aprox; com chocolate: 270 kcal. Sem o chocolate: 160kcal",
-          imagem: "imagens/brownie7.jpg"
+          imagem: "imagens/brownie7.webp"
         }
       ]
     },
@@ -998,6 +1003,7 @@ function typeCards() {
       cartao.innerHTML = `
         <img src="${receita.capa}" alt="${receita.nome}" loading="lazy">
         <p>${receita.nome}</p>
+          <div class="kcal-card">${receita.calorias ? `${receita.calorias} kcal` : ''}</div>
       `;
       cartao.onclick = () => abrirReceita(receita);
       container.appendChild(cartao);
