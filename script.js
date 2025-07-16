@@ -25,95 +25,100 @@ const categorias = {
     },
     {
       nome: "Pizza diet",
-      capa: "imagens/pizzafake.jpeg",
+      capa: "imagens/pizzafake.webp",
       calorias: 360,
       etapas: [
         {
           titulo: "Pizza diet",
           ingredientes:[ "1 Pão Sírio", "100g Frango desfiado", "Extrato de tomate/passata", "Oregáno", "10g Mussarela", "Brócolis", "Tomate" ],
-          imagem: "imagens/pizza1.jpg"
+          imagem: "imagens/pizza1.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pizza2.jpg"
+          imagem: "imagens/pizza2.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pizza3.jpg"
+          imagem: "imagens/pizza3.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pizza4.jpg"
+          imagem: "imagens/pizza4.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pizza5.jpg"
+          imagem: "imagens/pizza5.webp"
         },
         {
-          titulo: "Finalização",
-          texto: "Finalize como preferir de acordo com as quantidades da sua dieta",
-          imagem: "imagens/pizza7.jpg"
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pizza6.webp"
+        },
+         {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/pizza7.webp"
         },
            {
           titulo: "Finalização",
           texto: "Finalize como preferir de acordo com as quantidades da sua dieta",
-          imagem: "imagens/pizza8.jpg"
+          imagem: "imagens/pizza8.webp"
         }
       ]
     },
     {
       nome: "Tapioca Invertida",
-      capa: "imagens/tapiocainvertida.jpeg",
+      capa: "imagens/tapiocainvertida.webp",
       calorias: 270,
       etapas: [
         {
           titulo: "Tapioca Invertida",
           ingredientes: ["20g tapioca", "2 ovos","20g mussarela"],
-          imagem: "imagens/tapiocainvertida.jpeg"
+          imagem: "imagens/tapiocainvertida.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida1.png"
+          imagem: "imagens/tapiocainvertida1.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida2.png"
+          imagem: "imagens/tapiocainvertida2.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida3.png"
+          imagem: "imagens/tapiocainvertida3.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida4.png"
+          imagem: "imagens/tapiocainvertida4.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida5.png"
+          imagem: "imagens/tapiocainvertida5.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida6.png"
+          imagem: "imagens/tapiocainvertida6.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/tapiocainvertida7.png"
+          imagem: "imagens/tapiocainvertida7.webp"
         },
         {
           titulo: "Finalização",
           texto: "Finalize como preferir. Sugestão: rechear com requeijão light. Com isso, a receita ficará em torno de 315 kcal",
-          imagem: "imagens/tapiocainvertida.jpeg"
+          imagem: "imagens/tapiocainvertida8.webp"
         }
       ]
     },
@@ -156,48 +161,48 @@ const categorias = {
     },
     {
       nome: "Pastel",
-      capa: "imagens/pastelcapa.jpg",
+      capa: "imagens/pastelcapa.webp",
       calorias: 250,
       etapas: [
         {
           titulo: "Pastel de rap10",
           ingredientes: ["1 Rap10", "80g Frango ou Carne", "Requeijāo Light",],
-          imagem: "imagens/pastel1.jpg"
+          imagem: "imagens/pastel1.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pastel2.jpg"
+          imagem: "imagens/pastel2.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pastel3.jpg"
+          imagem: "imagens/pastel3.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pastel4.jpg"
+          imagem: "imagens/pastel4.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pastel5.jpg"
+          imagem: "imagens/pastel5.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pastel6.jpg"
+          imagem: "imagens/pastel6.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/pastel7.jpg"
+          imagem: "imagens/pastel7.webp"
         },
         {
           titulo: "Finalização",
           texto: "",
-          imagem: "imagens/pastel8.jpg"
+          imagem: "imagens/pastel8.webp"
         }
       ]
       },
@@ -511,73 +516,73 @@ const categorias = {
     },
     {
       nome: "Bolo de Chocolate",
-      capa: "imagens/bolocapa.jpg",
+      capa: "imagens/bolocapa.webp",
       calorias: 330,
       etapas: [
         {
           titulo: "Bolo de chocolate",
           ingredientes: ["1 Ovo", "20g Farinha de aveia", "30g Whey", "Fermento","Adoçante", "10g Cacau em pó", "10g de Chocolate",],
-          imagem: "imagens/bolo1.jpg"
+          imagem: "imagens/bolo1.webp"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo2.jpg"
+          imagem: "imagens/bolo2.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo3.jpg"
+          imagem: "imagens/bolo3.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo4.jpg"
+          imagem: "imagens/bolo4.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo5.jpg"
+          imagem: "imagens/bolo5.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo6.jpg"
+          imagem: "imagens/bolo6.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo7.jpg"
+          imagem: "imagens/bolo7.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo8.jpg"
+          imagem: "imagens/bolo8.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo9.jpg"
+          imagem: "imagens/bolo9.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo10.jpg"
+          imagem: "imagens/bolo10.webp"
         },
           {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo11.jpg"
+          imagem: "imagens/bolo11.webp"
         },
              {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bolo12.jpg"
+          imagem: "imagens/bolo12.webp"
         },
         {
           titulo: "Finalização",
           texto: "Calorias aprox; com chocolate: 330kcal. Sem o chocolate 280kcal",
-          imagem: "imagens/bolo13.jpg"
+          imagem: "imagens/bolo13.webp"
         }
       ]
     },
