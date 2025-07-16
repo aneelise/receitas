@@ -1140,6 +1140,17 @@ document.addEventListener('DOMContentLoaded', function() {
   initNavbar();
   initAnimations();
   typeCards();
+
+   // Pré-carrega todas as imagens de capa e etapas
+  Object.values(categorias).flat().forEach(receita => {
+    receita.etapas.forEach(etapa => {
+      const img = new Image();
+      img.src = etapa.imagem;
+    });
+
+    const capa = new Image();
+    capa.src = receita.capa;
+  });
   
   // Add loading animation to images
   document.querySelectorAll('img').forEach(img => {
