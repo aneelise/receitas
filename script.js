@@ -125,37 +125,42 @@ const categorias = {
     {
       nome: "Hambúrguer",
       capa: "imagens/lanche.jpeg",
-      calorias: 375,
+      calorias: 300,
       etapas: [
         {
           titulo: "Hambúrguer",
-          ingredientes: [ "50g Pão de hambúrguer", "120g de patinho moído cru", "20g Mussarela", "Opcionais: cebola, alface, tomate, picles", ],
+          ingredientes: [ "50g Pão de hambúrguer", "120g de patinho moído cru", "20g Mussarela ou Queijo Cheddar (Opcional)", "Cebola, alface, tomate, picles", ],
           imagem: "imagens/lanche.jpeg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/lanche.jpeg"
+          imagem: "imagens/lanche1.png"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/lanche.jpeg"
+          imagem: "imagens/lanche2.png"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/lanche.jpeg"
+          imagem: "imagens/lanche3.png"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/lanche.jpeg"
+          imagem: "imagens/lanche4.png"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/lanche5.png"
         },
         {
           titulo: "Finalização",
           texto: "",
-          imagem: "imagens/lanche.jpeg"
+          imagem: "imagens/lanche6.png"
         }
       ]
     },
