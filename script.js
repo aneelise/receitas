@@ -306,32 +306,7 @@ const categorias = {
           },
           {
             titulo: "Preparo",
-            texto: "",
-            imagem: "imagens/salada2.jpeg"
-          },
-          {
-            titulo: "Preparo",
-            texto: "",
-            imagem: "imagens/salada2.jpeg"
-          },
-          {
-            titulo: "Preparo",
-            texto: "",
-            imagem: "imagens/salada2.jpeg"
-          },
-          {
-            titulo: "Preparo",
-            texto: "",
-            imagem: "imagens/salada2.jpeg"
-          },
-          {
-            titulo: "Preparo",
-            texto: "",
-            imagem: "imagens/salada2.jpeg"
-          },
-          {
-            titulo: "Preparo",
-            texto: "",
+            texto: "Monte seu bowl com alface, tomate, brócolis, pepino, manga, frango ou carne, batata/macarrão e finalize com molho de sua preferência. 🥗",
             imagem: "imagens/salada2.jpeg"
           },
         ]
@@ -433,55 +408,11 @@ const categorias = {
           }
         ]
       },
-      {
-        nome: "Torta de frigideira",
-        capa: "imagens/torta.png",
-        calorias: 305,
-        etapas: [
-          {
-            titulo: "Torta de frigideira",
-            ingredientes: [ "1 Ovo", "10g tapioca", "10g farinha de aveia", "20g requeijāo light", "80g de frango desfiado", "Fermento", "Sal e temperos a gosto", "Opcional: Queijo mussarela",],
-            imagem: "imagens/torta.png"
-          },
-          {
-            titulo: "Preparo",
-            texto: "",
-            imagem: "imagens/torta.png"
-          },
-          {
-            titulo: "Finalização",
-            texto: "Se quiser adicionar queijo mussarela, uma fatia tem em torno de 20g, o que adiciona cerca de 70 kcal à receita. Assim, a receita totaliza aproximadamente 370 kcal.",
-            imagem: "imagens/crepiocadoce.jpeg"
-          }
-        ]
-      },
     ],
   
 
   "Lanches Doces": [
 
-    {
-      nome: "Muffin de paçoca",
-      capa: "imagens/pacocacapa.jpeg",
-      calorias: 380,
-      etapas: [
-        {
-          titulo: "Muffin de paçoca",
-          ingredientes: ["1 ovo", "20g farelo de aveia", "1 banana", "Fermento", "Adoçante", "20g whey", "1 paçoca rolha"],
-          imagem: "imagens/pacocacapa.jpeg"
-        },
-        {
-          titulo: "Preparo",
-          texto: "",
-          imagem: "imagens/smoothie.jpeg"
-        },
-        {
-          titulo: "Finalização",
-          texto: "",
-          imagem: "imagens/smoothie.jpeg"
-        }
-      ]
-    },
     {
       nome: "Mingau de aveia",
       capa: "imagens/mingau.jpeg",
@@ -599,38 +530,58 @@ const categorias = {
     {
       nome: "Bombom de Whey",
       capa: "imagens/bombom.jpeg",
-      calorias: 270,
+      calorias: 235,
       etapas: [
         {
           titulo: "Bombom de whey",
-          ingredientes: ["20g de Chocolate", "30g de whey", "1/2 porção de fruta (50g uva)",],
+          ingredientes: ["20g de Chocolate", "20g de whey", "10g de leite em pó desnatado", "20g de geleia zero",],
           imagem: "imagens/bombom.jpeg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bombom.jpeg"
+          imagem: "imagens/bombom1.jpeg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bombom.jpeg"
+          imagem: "imagens/bombom2.jpeg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bombom.jpeg"
+          imagem: "imagens/bombom3.jpeg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bombom.jpeg"
+          imagem: "imagens/bombom4.jpeg"
         },
         {
           titulo: "Preparo",
           texto: "",
-          imagem: "imagens/bombom.jpeg"
-        }
+          imagem: "imagens/bombom5.jpeg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom6.jpeg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom7.jpeg"
+        },
+          {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom8.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/bombom9.jpeg"
+        },
       ]
     },
     {
@@ -806,6 +757,28 @@ const categorias = {
         }
       ]
     },
+     {
+      nome: "Muffin de paçoca",
+      capa: "imagens/pacocacapa.jpeg",
+      calorias: 380,
+      etapas: [
+        {
+          titulo: "Muffin de paçoca",
+          ingredientes: ["1 ovo", "20g farelo de aveia", "1 banana", "Fermento", "Adoçante", "20g whey", "1 paçoca rolha"],
+          imagem: "imagens/pacocacapa.jpeg"
+        },
+        {
+          titulo: "Preparo",
+          texto: "",
+          imagem: "imagens/smoothie.jpeg"
+        },
+        {
+          titulo: "Finalização",
+          texto: "",
+          imagem: "imagens/smoothie.jpeg"
+        }
+      ]
+    },//
   ]
 };
 
