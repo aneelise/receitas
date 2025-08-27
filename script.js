@@ -129,7 +129,7 @@ const categorias = {
       etapas: [
         {
           titulo: "Hambúrguer",
-          ingredientes: [ "50g Pão de hambúrguer", "120g de patinho moído cru", "20g Mussarela ou Queijo Cheddar (Opcional)", "Cebola, alface, tomate, picles", ],
+          ingredientes: [ "50g Pão de hambúrguer", "100g de patinho moído cru", "20g Mussarela ou Queijo Cheddar (Opcional)", "Cebola, alface, tomate, picles", ],
           imagem: "imagens/lanche.jpeg"
         },
         {
